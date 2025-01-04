@@ -1,0 +1,4 @@
+SELECT DISTINCT
+market,customer,region
+FROM dim_customer
+where customer= "Atliq Exclusive" and region="APAC"
